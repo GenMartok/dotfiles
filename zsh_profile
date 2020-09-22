@@ -1,1 +1,24 @@
-/Users/mfischler/.zsh_profile
+alias ls='lsd'
+
+alias lookout="fd . ~ --hidden | fzf --preview 'bat {} --style=numbers --color=always'"
+
+alias cat='bat --plain'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias letmein='ssh-add -K ~/.ssh/id_rsa'
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+alias c="clear"
+alias hs='history | grep'
+alias top='htop'
+alias buster='buster.py'
+alias myip='curl -4 icanhazip.com'
+alias myip6='curl -6 icanhazip.com'
+alias please='sudo'
+alias l='ls'
+alias ll='ls -l'
+alias la='ls -lah'

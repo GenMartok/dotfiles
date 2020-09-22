@@ -14,3 +14,5 @@
 - ZSH - https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH
 
 - oh-my-zsh - https://github.com/ohmyzsh/ohmyzsh
+
+https://www.programmingfonts.org/

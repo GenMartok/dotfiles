@@ -5,3 +5,4 @@
 - lsd
 - bat
 - p10k
+- HTTPie

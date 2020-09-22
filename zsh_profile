@@ -24,8 +24,11 @@ alias l='ls'
 alias ll='ls -l'
 alias la='ls -lah'
 alias lh='ls -lah'
+<<<<<<< HEAD
 
 alias gs='git status'
 alias ga='git add --all'
 alias gp='git push'
 alias gc='git commit'
+=======
+>>>>>>> 7f6490e9a13826aad296bddcdb9177ff4c298e4d

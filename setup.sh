@@ -4,6 +4,9 @@
 apt-get update
 apt-get upgrade -y
 
+#Additional Programs
+apt-get install htop dig nmap nmon curl -y
+
 #Set Hostname
 read -p "Hostname: " HOSTNAME
 hostnamectl set-hostname $HOSTNAME
@@ -30,15 +33,10 @@ sed -i -e "s/#PermitRootLogin no/PermitRootLogin no/" /etc/ssh/sshd_config
 sed -i -e "s/PasswordAuthentication yes/PasswordAuthentication no/" /etc/ssh/sshd_config
 sed -i -e "s/#PasswordAuthentication no/PasswordAuthentication no/" /etc/ssh/sshd_config
 systemctl restart sshd
+
 #Set Date
 dpkg-reconfigure tzdata
 date
-
-#Additional Programs
-apt-get install htop -y
-apt-get install dig -y
-apt-get install nmap -y
-apt-get install nmon -y
 
 #All Done
 echo All Good

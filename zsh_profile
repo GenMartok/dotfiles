@@ -12,6 +12,7 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
+alias .......="cd ../../../../../.."
 alias c="clear"
 alias hs='history | grep'
 alias top='htop'

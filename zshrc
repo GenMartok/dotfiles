@@ -136,18 +136,9 @@ alias ......="cd ../../../../.."
 alias c="clear"
 alias hs='history | grep'
 alias top='htop'
-alias newjawn="linode-cli linodes create"
-alias linlist='linode-cli linodes list'
-alias buster='buster.py'
 alias myip='curl -4 icanhazip.com'
 alias myip6='curl -6 icanhazip.com'
-alias linplans='curl https://api.linode.com/v4/linode/types -l | json_pp | grep id'
-alias distros='curl https://api.linode.com/v4/images -l | json_pp | grep id'
-alias regions='curl https://api.linode.com/v4/regions | json_pp | grep id'
-alias arp-scan='sudo arp-scan'
 alias please='sudo'
-alias gamebox='ssh root@45.56.105.178'
-alias terrariaserver='ssh terrariaserver@45.56.105.178'
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
@@ -156,25 +147,9 @@ alias ll='ls -l'
 alias la='ls -la'
 alias lh='ls -lh'
 
-alias diglin='dig @ns1.linode.com'
-
-
-
 function manp () {
 	man -t $@ | open -fa /Applications/Preview.app
 }
-
-alias whatsapp='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=https://web.whatsapp.com/'
-alias slack='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=https://linode.slack.com'
-alias bashtop='/Users/mfischler/bashtop/bashtop'
-alias python=/usr/local/bin/python3.7
-
-alias dnstest="/Users/mfischler/tools/dnstest.sh"
-alias websitetest="/Users/mfischler/tools/websitetest.sh"
-alias networktest="/Users/mfischler/tools/networktest.sh"
-alias hulu='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=https://hulu.com'
-alias plex=' /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --app=https://app.plex.tv/desktop'
-
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

@@ -10,6 +10,7 @@ set shell zsh
 # times.
 set shellopts '-eu'
 set info size
+set icons true
 # set internal field separator (IFS) to "\n" for shell commands
 # This is useful to automatically split file names in $fs and $fx properly
 # since default file separator used in these variables (i.e. 'filesep' option)
